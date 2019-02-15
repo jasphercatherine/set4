@@ -1,5 +1,5 @@
 n,k=map(int,input().split())
-t=n
+ti=n
 n=k
-k=t
+k=ti
 print(n,k)
