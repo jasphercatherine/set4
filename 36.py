@@ -1,10 +1,8 @@
-st=input()
-a=b=c=0
-for i in range(0,len(st)):
-	if st[i].isalpha():
-		a=a+1
-if st[i].isnumeric():
-	b=b+1
-else:
-	c=c+1
-print(c)
+j=input()
+i=0
+for a in range (len(j)):
+ if(j[a].isdigit() or j[a].isalpha() or j[a]==' '):
+  continue
+ else:
+  i+=1
+print(i)  
